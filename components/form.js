@@ -23,7 +23,7 @@ export default function Form({ onSearch}) {
           <View >
             <View style={tw `flex flex-row justify-center items-center my-2 `}>
             <TextInput
-              style={tw ` mr-1 rounded-lg text-lg border-2 border-gray-200 text-white text-center py-1 px-2 w-60`}
+              style={tw ` mr-1 rounded-lg text-lg border-2 border-gray-800 text-white text-center py-1 px-2 w-60`}
               placeholder='type city'
               onChangeText={props.handleChange('city')}
               value={props.values.city}
